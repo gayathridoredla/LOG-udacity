@@ -31,7 +31,7 @@ def mt_pp_te_aes(db1a_cors1):
     for rsg_12 in rsg_12:
         print(' --{title}  ------)  {count} views'
               .format(title=rsg_12[0], count=rsg_12[1]))
-        print("\n")    
+        print("\n")
     return
 
 
@@ -55,7 +55,7 @@ def m_ppar_ators(db1a_cors1):
     for rsg_12 in rsg_12:
         print(' --{author}  ------)  {count} views'
               .format(author=rsg_12[0], count=rsg_12[1]))
-        print("\n")    
+        print("\n")
     return
 
 
@@ -83,7 +83,7 @@ def ds_ger_thn_eros(db1a_cors1):
             date=rsg_12[0],
             error_rate=rsg_12[1]))
         print("\n")
-        print(" **success** ")   
+        print(" **success** ")
     return
 if __name__ == "__main__":
     CORS1 = cct_dbse()

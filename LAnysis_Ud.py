@@ -8,8 +8,8 @@ def cct_dbse():
     try:
         dtbse = psycopg2.connect("dbname=news")
         cors1 = dtbse.cursor()
-    except:
-        print("Failed to connect to the PostgreSQL database.")
+    except Exception as error:
+        print(error)
         return None
     else:
         return cors1

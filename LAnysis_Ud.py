@@ -86,6 +86,8 @@ def ds_ger_thn_eros(db1a_cors1):
         print("\n")
         print(" **success** ")
     return
+
+
 if __name__ == "__main__":
     CORS1 = cct_dbse()
     if CORS1:

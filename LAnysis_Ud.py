@@ -92,4 +92,4 @@ if __name__ == "__main__":
         mt_pp_te_aes(CORS1)
         m_ppar_ators(CORS1)
         ds_ger_thn_eros(CORS1)
-        CORS1.close()
+    CORS1.close()
